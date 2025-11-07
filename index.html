@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Achyuth Kumar — Portfolio</title>
+
+  <meta property="og:title" content="Achyuth Kumar — Portfolio" />
+  <meta property="og:description" content="Portfolio showcasing full‑stack systems, real‑time data, AI/ML, and cloud work." />
+  <meta property="og:image" content="https://ui-avatars.com/api/?name=Achyuth+Kumar&background=4B3832&color=fff" />
+  <meta property="og:type" content="website" />
+  <meta name="author" content="Achyuth Kumar">
+  <meta name="keywords" content="Java, Spring Boot, React, Node.js, Kafka, LangChain, AWS, Kubernetes, Portfolio">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <!-- Vanta.js library for animated background -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="page-wrapper">
+  <div class="main-content">
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <img src="https://ui-avatars.com/api/?name=Achyuth+Kumar&background=4B3832&color=fff" alt="Achyuth Kumar profile picture" class="hero-img" />
+      <h1>Achyuth Kumar</h1>
+      <p>Software Engineer • Java | React | Node | Kafka | LangChain | AWS</p>
+      <a href="#about" class="scroll-down"><i class="fas fa-angle-double-down scroll-down"></i></a>
+    </div>
+  </section>
+
+  <!-- Navigation (sticky top) -->
+  <nav class="bottom-nav">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="section">
+    <div class="about-card">
+      <h2>About Me</h2>
+      <p>I’m a Software Engineer focused on building secure, scalable systems across healthcare, e‑commerce, and enterprise domains.
+         I work end‑to‑end across Java/Spring Boot, Node.js/Express, React/TypeScript, and event‑driven architectures with Kafka, WebSockets, and Redis.
+         I’ve delivered AI/ML solutions with LangChain, LangGraph, RAG and vector stores, and I ship reliably with Docker, Kubernetes, and CI/CD.</p>
+      <p>Recent wins: 30% faster portal loads in React, 40% lower monitoring latency with Kafka + Redis, and 50% quicker releases with automated pipelines.</p>
+      <p><strong>Based in:</strong> San Jose, CA</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li><i class="fa-solid fa-code"></i>&nbsp;Java, JavaScript/TypeScript, Python, C++, SQL</li>
+      <li><i class="fa-solid fa-diagram-project"></i>&nbsp;Spring Boot, Node.js, Express, React, Next.js, Tailwind</li>
+      <li><i class="fa-solid fa-cloud"></i>&nbsp;AWS, Azure, GCP, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions</li>
+      <li><i class="fa-solid fa-database"></i>&nbsp;MySQL, PostgreSQL, MongoDB, Redis, GraphQL/REST</li>
+      <li><i class="fa-solid fa-shield-halved"></i>&nbsp;OAuth2, JWT, HIPAA‑ready APIs</li>
+      <li><i class="fa-solid fa-brain"></i>&nbsp;LangChain, LangGraph, RAG, TensorFlow, OpenAI API</li>
+      <li><i class="fa-solid fa-vial"></i>&nbsp;JUnit, Jest, Mocha, Selenium, Postman</li>
+      <li><i class="fa-solid fa-timeline"></i>&nbsp;Kafka, RabbitMQ, WebSockets, Event‑driven systems</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section with Flip Cards -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+
+      <div class="flip-card">
+        <div class="flip-inner">
+          <div class="flip-front">
+            <h3>Real‑Time Data Visualization</h3>
+            <img src="images/1.png" alt="Real-time dashboard" class="project-image">
+          </div>
+          <div class="flip-back">
+            <a href="#experience">Case Study</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-inner">
+          <div class="flip-front">
+            <h3>E‑commerce Payment Integration</h3>
+            <img src="images/2.png" alt="Payments project" class="project-image">
+          </div>
+          <div class="flip-back">
+            <a href="#experience">Design Notes</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-inner">
+          <div class="flip-front">
+            <h3>RAG/LLM Automation Pipelines</h3>
+            <img src="images/3.png" alt="AI pipelines" class="project-image">
+          </div>
+          <div class="flip-back">
+            <a href="#experience">Architecture</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-inner">
+          <div class="flip-front">
+            <h3>Microservices Modernization</h3>
+            <img src="images/4.png" alt="Microservices" class="project-image">
+          </div>
+          <div class="flip-back">
+            <a href="#experience">Outcomes</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <div class="card">
+      <h3>Kaiser Permanente — Software Engineer <span style="font-weight:400;">(Jul 2024 – Present)</span></h3>
+      <p>React 18 + TypeScript + Redux; Kafka + WebSockets + Redis; LangChain/LangGraph/RAG; Docker, GitHub Actions, Prometheus, Grafana.</p>
+      <ul>
+        <li>Cut React portal load times by <strong>30%</strong>.</li>
+        <li>Reduced patient monitoring latency by <strong>40%</strong> with Kafka + Redis.</li>
+        <li>Automated CI/CD, cutting deployment time by <strong>50%</strong> and incidents by <strong>25%</strong>.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Kaiser Permanente — Software Engineer Intern <span style="font-weight:400;">(Jan 2024 – May 2024)</span></h3>
+      <p>React 18, TypeScript, Redux, Node.js/Express, MongoDB, OAuth2/JWT.</p>
+    </div>
+    <div class="card">
+      <h3>Dell Technologies — Software Engineer <span style="font-weight:400;">(Mar 2021 – Jul 2022)</span></h3>
+      <p>Java 17, Spring Boot/Cloud, JPA/Hibernate, AWS (ECS/EKS, Lambda, DynamoDB, S3), Terraform, Docker, Kubernetes.</p>
+      <ul>
+        <li>Modernized to microservices; <strong>30%</strong> latency reduction.</li>
+        <li>Cloud migration with high availability and <strong>20%</strong> cost savings.</li>
+        <li>Automated infra, cutting release cycles by <strong>40%</strong>.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>TatvaSoft — Software Engineer <span style="font-weight:400;">(Jan 2020 – Feb 2021)</span></h3>
+      <p>Node.js, Angular, TensorFlow, Kafka, RabbitMQ; Selenium, Postman.</p>
+      <ul>
+        <li>+35% client engagement with cross‑platform apps.</li>
+        <li>Predictive analytics (TensorFlow) with ~<strong>85%</strong> accuracy.</li>
+        <li>QA automation reduced regressions by <strong>60%</strong>.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <div class="social-icons">
+      <a href="mailto:achyuth.uf237@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="tel:+12168607167" title="Call"><i class="fas fa-phone"></i></a>
+      <a href="https://www.linkedin.com/in/achyuth-kumar-05775b193/" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="AchyuthKumar_Resume_SoftwareEngineer.pdf" title="Resume PDF" download><i class="fas fa-file-pdf"></i></a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2025 Achyuth Kumar. All Rights Reserved.</p>
+  </footer>
+  </div>
+  <script src="script.js"></script>
+</div>
+</body>
+</html>

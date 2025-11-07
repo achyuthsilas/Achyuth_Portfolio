@@ -1,0 +1,135 @@
+:root {
+  --espresso: #4B3832;
+  --dusty-rose: #C7A9A8;
+  --cream: #EFE1DC;
+  --white: #FFFFFF;
+}
+
+/* Basic page styling */
+body {
+  background-color: var(--espresso);
+  color: var(--cream);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header.section {
+  text-align: center; /* center all content inside header */
+}
+
+header.section h1,
+header.section p {
+  margin: 0 auto; /* optional, ensures centered block */
+}
+
+
+.back-link {
+  color: var(--cream);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: var(--dusty-rose);
+  text-decoration: underline;
+}
+
+/* Poster Gallery Container */
+.poster-gallery {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(75, 56, 50, 0.1);
+}
+
+/* Center heading and explore line */
+.poster-gallery h2,
+.poster-gallery p.explore {
+  text-align: center;
+  margin: 0.5rem 0;
+  color: var(--espresso);
+}
+
+.poster-gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.poster-gallery p.explore {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  color: var(--dusty-rose);
+}
+
+/* Grid setup */
+.poster-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+/* Card styling */
+.poster-grid .card {
+  background-color: var(--dusty-rose);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(75, 56, 50, 0.15);
+  width: 280px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.poster-grid .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(75, 56, 50, 0.3);
+}
+
+/* Image styling */
+.poster-grid .card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  border-bottom: 2px solid var(--espresso);
+  margin-bottom: 0.8rem;
+  display: block;
+}
+
+/* Card title */
+.poster-grid .card h3 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--espresso);
+}
+
+/* Link styling */
+.poster-grid .card a {
+  color: var(--espresso);
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.poster-grid .card a:hover {
+  border-bottom: 1px solid var(--espresso);
+}
+
+/* Footer sticks to bottom */
+.site-footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 20px 0;
+  background: var(--dusty-rose);
+  color: var(--espresso);
+}
+
+.site-footer p {
+  margin: 0;
+}
